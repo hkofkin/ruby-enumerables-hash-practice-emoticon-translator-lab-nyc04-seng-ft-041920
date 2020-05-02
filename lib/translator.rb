@@ -30,7 +30,7 @@ end
 
 def get_english_meaning(file_path, japanese_emoticon)
   # code goes here
-  
+
   new_hash = load_library(file_path)
   
   new_hash.each do |emoticon_name, languages|
